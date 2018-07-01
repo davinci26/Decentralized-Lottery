@@ -6,6 +6,8 @@ A commit-reveal scheme is introduced to enforce users to provide the contract wi
 
  A crucial observation towards this optimization is that while it ensures a true random seed it suffers from other disadvantages. Namely, in order to execute the lottery function it is required to iterate over the users twice instead of once. As a result the gas associated with executing this function doubles as well.
  
+ You can see my article on randomness on Ethereum [here](https://www.vfahub.com/blockchain-obstacles-solutions/)
+ 
  ## Disclaimer ##
  
  This implementation tries to avoid obvious security leaks such as re-entrancy attacks and under/overflows. However, the contract has only been locally tested.
